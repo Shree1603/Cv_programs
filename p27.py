@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-image = cv2.imread("C://Users//ASHIK C SABU//Desktop//supraaa//supra.jpg")
-img2 = cv2.imread("C://Users//ASHIK C SABU//Desktop//supraaa//supra1.jpg")
+image = cv2.imread("C://Users//HP//Downloads//pt.jpg")
+img2 = cv2.imread("C://Users//HP//Downloads//pt.jpg")
 print(image.shape) # Print image shape
 cv2.imshow("original", image)
 imageCopy = image.copy()
