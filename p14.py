@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-im_src = cv2.imread("C://Users//ASHIK C SABU//Desktop//supraaa//supra.jpg")
+im_src = cv2.imread("C://Users//HP//Downloads//pt.jpg")
 pts_src = np.array([[141, 131], [480, 159], [493, 630],[64, 601]])
 im_dst = cv2.imread("C://Users//ASHIK C SABU//Desktop//supraaa//supra.jpg")
 pts_dst = np.array([[318, 256],[534, 372],[316, 670],[73, 473]])
