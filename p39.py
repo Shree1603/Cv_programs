@@ -1,6 +1,6 @@
 import cv2
-car_cascade = cv2.CascadeClassifier("C://Users//ASHIK C SABU//Desktop//supraaa//cars.xml")
-cap = cv2.VideoCapture("C://Users//ASHIK C SABU//Desktop//supraaa//car.mp4")
+car_cascade = cv2.CascadeClassifier("C://Users//HP//Downloads//pt.jpg")
+cap = cv2.VideoCapture("C://Users//HP//Downloads//pt.jpg")
 while True:
     ret, frame = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
