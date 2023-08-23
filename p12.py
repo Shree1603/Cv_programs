@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread("C://Users//ASHIK C SABU//Desktop//supraaa//supra.jpg")
+img = cv2.imread("C://Users//HP//Downloads//pt.jpg")
 rows,cols,ch = img.shape
 pts1 = np.float32([[56,65],[368,52],[28,387],[389,390]])
 pts2 = np.float32([[100,50],[300,0],[0,300],[300,300]])
