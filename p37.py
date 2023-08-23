@@ -1,5 +1,5 @@
 import cv2
-cap = cv2.VideoCapture("C://Users//ASHIK C SABU//Desktop//supraaa//car.mp4")
+cap = cv2.VideoCapture("C://Users//HP//Downloads//pt.jpg")
 total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
 current_frame = total_frames - 1
 while current_frame >= 0:
