@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("C://Users//ASHIK C SABU//Desktop//supraaa//face.jpeg")
+img = cv2.imread("C://Users//HP//Downloads//pt.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 face_cascade =cv2.CascadeClassifier("C://Users//ASHIK C SABU//Desktop//supraaa//haarcascade_frontalface_default.xml")
 faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
