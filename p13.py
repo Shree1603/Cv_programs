@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-cap = cv2.VideoCapture("C://Users//ASHIK C SABU//Desktop//supraaa//supra.jpg")
+cap = cv2.VideoCapture("C://Users//HP//Downloads//pt.jpg")
 while True:
     ret, frame = cap.read()
     pts1 = np.float32([[200,300], [5, 2],[0, 4], [6, 0]])
